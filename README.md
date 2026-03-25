@@ -1,6 +1,6 @@
 # BatteryOps
 
-[![CI](https://github.com/mherrera-ai/Batteryops/actions/workflows/ci.yml/badge.svg)](https://github.com/mherrera-ai/Batteryops/actions/workflows/ci.yml)
+[![CI](https://github.com/mherrera-ai/BatteryOps/actions/workflows/ci.yml/badge.svg)](https://github.com/mherrera-ai/BatteryOps/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-3776AB.svg)](pyproject.toml)
 

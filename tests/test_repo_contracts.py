@@ -106,10 +106,10 @@ def test_project_urls_point_to_public_repo_owner() -> None:
     pyproject = Path(__file__).resolve().parents[1] / "pyproject.toml"
     urls = tomllib.loads(pyproject.read_text(encoding="utf-8"))["project"]["urls"]
 
-    assert urls["Homepage"] == "https://github.com/mherrera-ai/Batteryops"
-    assert urls["Repository"] == "https://github.com/mherrera-ai/Batteryops"
-    assert urls["Issues"] == "https://github.com/mherrera-ai/Batteryops/issues"
-    assert urls["Documentation"] == "https://github.com/mherrera-ai/Batteryops#readme"
+    assert urls["Homepage"] == "https://github.com/mherrera-ai/BatteryOps"
+    assert urls["Repository"] == "https://github.com/mherrera-ai/BatteryOps"
+    assert urls["Issues"] == "https://github.com/mherrera-ai/BatteryOps/issues"
+    assert urls["Documentation"] == "https://github.com/mherrera-ai/BatteryOps#readme"
 
 
 def test_readme_bundle_claims_match_checked_in_demo_bundle() -> None:

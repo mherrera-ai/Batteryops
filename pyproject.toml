@@ -49,10 +49,10 @@ batteryops = "batteryops.cli:main"
 batteryops-demo = "batteryops.cli:launch_demo"
 
 [project.urls]
-Homepage = "https://github.com/mherrera-ai/Batteryops"
-Repository = "https://github.com/mherrera-ai/Batteryops"
-Issues = "https://github.com/mherrera-ai/Batteryops/issues"
-Documentation = "https://github.com/mherrera-ai/Batteryops#readme"
+Homepage = "https://github.com/mherrera-ai/BatteryOps"
+Repository = "https://github.com/mherrera-ai/BatteryOps"
+Issues = "https://github.com/mherrera-ai/BatteryOps/issues"
+Documentation = "https://github.com/mherrera-ai/BatteryOps#readme"
 
 [project.optional-dependencies]
 dev = [
